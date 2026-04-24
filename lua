@@ -1,7 +1,7 @@
 getgenv().AutoKillGlobal = not getgenv().AutoKillGlobal
 
 if getgenv().AutoKillGlobal then
-    print("☠️ AutoKill Global ACTIVADO")
+    print("Auto Kill All ทำงาน")
 
     local player = game.Players.LocalPlayer
 
@@ -43,9 +43,9 @@ if getgenv().AutoKillGlobal then
             end
             task.wait(0.1)
         end
-        print("🛑 AutoKill Global DESACTIVADO")
+        print("Auto Kill All หยุดทำงาน")
     end)
 
 else
-    print("🛑 AutoKill Global DESACTIVADO")
+    print("Auto Kill All หยุดทำงาน")
 end
